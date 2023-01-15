@@ -1,0 +1,33 @@
+{
+  "name": "electroneek-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation showcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayofdreams/electroneek-playwright.git"
+  },
+  "author": "Rafael Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayofdreams/electroneek-playwright/issues"
+  },
+  "homepage": "https://github.com/wayofdreams/electroneek-playwright#readme",
+  "dependencies": {
+    "@playwright/test": "^1.29.2",
+    "eslint": "^8.31.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3"
+  }
+}

@@ -4,7 +4,7 @@ This project was created to demonstrate my skills in creating automation framewo
 
 The following is needed to run this project:
 
-install Nodejs on your machine.
+Install Nodejs on your machine.
 
 Open a terminal that is located on the project's home directory.
 

@@ -4,7 +4,8 @@
   "description": "Playwright automation showcase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts"
   },
   "husky": {
     "hooks": {
@@ -26,8 +27,12 @@
   "homepage": "https://github.com/wayofdreams/electroneek-playwright#readme",
   "dependencies": {
     "@playwright/test": "^1.29.2",
-    "eslint": "^8.31.0",
     "husky": "^8.0.3",
     "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.32.0"
   }
 }

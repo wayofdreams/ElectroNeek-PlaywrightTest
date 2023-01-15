@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 
 test("Subscribe submission", async ({ page }) => {
     await page.goto("https://electroneek.com/blog/");
-    await page.locator('//button[@innerHTML="Subscribe"]').click();
+    await page.locator('//button[text()="Subscribe"]').click();
     await page.fill("[placeholder = Corporate email]", "testing@tester.test");
     await page.locator("[name = agree]").check();
     await delay(4000);
